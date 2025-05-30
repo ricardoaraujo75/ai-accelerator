@@ -4,6 +4,14 @@ metadata:
   name: odh-dashboard-config
 spec:
   notebookSizes:
+    - name: Small-Medium
+      resources:
+        limits:
+          cpu: '4'
+          memory: 10Gi
+        requests:
+          cpu: '2'
+          memory: 8Gi
     - name: Small
       resources:
         limits:
